@@ -23,7 +23,13 @@ public class Repaso {
 	     * And && Or || Negación !
 	     */
 	    
-	    System.out.println(true || false);
+	    System.out.println(!true);
+	    
+	    System.out.println("Calculando el IGV");
+		System.out.println("IGV: "+r.calcIGV(100));
+	    
+	    
+	    System.out.println("calculado el indice de masa corporal:");
 	    System.out.println(r.calcIMC(1.72, 60));
 	    
 	 }
