@@ -24,6 +24,7 @@ public class Repaso {
 	     */
 	    
 	    System.out.println(true || false);
+	    System.out.println(r.calcIMC(1.72, 60));
 	    
 	 }
 
@@ -42,7 +43,9 @@ public class Repaso {
 		 
      }
 
-  // 
-
+     public double calcIMC(double altura, double peso){
+    	 
+    	 return peso / (altura * altura);
+     }
 
 }
