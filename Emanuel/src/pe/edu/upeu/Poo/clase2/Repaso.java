@@ -6,29 +6,21 @@ public class Repaso {
 	
 		Repaso r = new Repaso();
 		
-		double a =25;
-		double b =144;
+	    int a =25;
+	    int b =144;
 		
 		/**
-		 * Suma +  
-		 * Resta *
-		 * Multiplicacion *
-		 * Division /
-		 * Modulo %
-		 * 
+		 * Suma + Resta * Multiplicacion  Division / Modulo % 
 		 */
 		 
-
 		//Esta instruccion me sirve para imprimir el la consola
-		System.out.println("La suma es: "+r.sumar(a+b));
+		System.out.println("La suma es: " + r.sumar(a,b));
 		
 	
         System.out.println("Operaciones Logicas");
 	
 	    /**
-	     * And &&
-	     * Or ||
-	     * Negacion !
+	     * And && Or || Negación !
 	     */
 	    
 	    System.out.println(true || false);
@@ -40,7 +32,7 @@ public class Repaso {
          
 		 return sum1 +sum2;
 
-
+		 
      }
 
 	 public double calcIGV(double monto){
@@ -48,12 +40,9 @@ public class Repaso {
 		 
 		 return monto * igv / 100;
 		 
-		 
-		 
-		 
-	 }
+     }
 
-
+  // 
 
 
 }
