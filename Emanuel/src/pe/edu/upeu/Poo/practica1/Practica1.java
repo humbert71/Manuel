@@ -7,8 +7,7 @@ public class Practica1 {
 
 		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
-
-		
+        
 		@SuppressWarnings("unused")
 		double resultado = 0;
 		System.out.println("ingrese el monto de la venta");
