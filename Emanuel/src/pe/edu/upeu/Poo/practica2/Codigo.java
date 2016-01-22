@@ -1,17 +1,21 @@
 package pe.edu.upeu.Poo.practica2;
 
 public class Codigo {
-	private String Cargo;
-	Cargo usuario = new Cargo();
-	String codigo = "201020101";
-	
-	public String getCodigo() {
-		return Cargo;
-	}
 
-	public void setCodigo(String codigo) {
-		this.Cargo = codigo;
+	public static void main(String[] args) {
+		Codigo usuario = new Codigo();
+		String Codigo = "154122";
+		System.out.println("codigo : "+"201420141");
+		
 	}
-	
-
+       private int codigo;
+       public int getCodigo() {
+	   return codigo;
 }
+       public void setCodigo(int codigo) {
+	   this.codigo = codigo;
+}
+	}
+	
+
+
